@@ -2,6 +2,17 @@
 body{
     margin: 0 auto;
     background-color: #dbdbdb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline;
+    vertical-align:middle;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 0;
 }
 
 /* Utilities */
@@ -12,6 +23,7 @@ body{
     border-radius: 4px;
     padding: 15px 35px;
     margin-bottom: 5px;
+    color: #444851;
 }
 
 /* header main*/
@@ -25,12 +37,6 @@ body{
 #logo {
     height: 60px;
     vertical-align: middle;
-}
-
-h1 {
-    display: inline;
-    vertical-align:middle;
-    font-size: 2.5rem;
 }
 
 /* Header add */
@@ -48,4 +54,35 @@ h1 {
 #b-section{
     background-color: white;
     color: #ccd0d3;
+}
+
+/* main */
+main{
+    font-weight: bold;
+}
+
+ul, li  {
+    padding: 10px 0;
+    list-style: none;
+}
+
+#checked {
+    color: #A1DBCF;
+    border-radius: 50%;
+    padding: 1px 3px; 
+    border: 2px solid currentColor;
+    margin-right: 10px;
+}
+
+.target {
+    font-weight: normal;
+    display: inline-block;
+    color: white ;
+    border-radius: 13px;
+    padding: 7px;
+    font-size: 13px;
+}
+
+#editorial {
+    background-color: #47ADF1;
 }
