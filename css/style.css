@@ -17,11 +17,11 @@ h2 {
 
 /* Utilities */
 .container {
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
     background-color: white;
     border-radius: 4px;
-    padding: 15px 35px;
+    padding: 15px 60px;
     margin-bottom: 5px;
     color: #444851;
 }
@@ -64,9 +64,10 @@ main{
 ul, li  {
     padding: 10px 0;
     list-style: none;
+    /* font-size: 20px; */
 }
 
-#checked {
+.checked {
     color: #A1DBCF;
     border-radius: 50%;
     padding: 1px 3px; 
@@ -74,6 +75,15 @@ ul, li  {
     margin-right: 10px;
 }
 
+.cross {
+    color: #eb4e46c4;
+    border-radius: 50%;
+    padding: 1px 3px; 
+    border: 2px solid currentColor;
+    margin-right: 10px;
+}
+
+/* various types of target*/
 .target {
     font-weight: normal;
     display: inline-block;
@@ -83,6 +93,26 @@ ul, li  {
     font-size: 13px;
 }
 
-#editorial {
+.editorial {
     background-color: #47ADF1;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
