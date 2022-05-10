@@ -1,13 +1,25 @@
 /* Generics */
 body{
     margin: 0 auto;
+    background-color: #dbdbdb;
 }
 
-/* header */
+/* Utilities */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 15px 35px;
+    margin-bottom: 5px;
+}
+
+/* header main*/
 #main-header {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     height: 70px;
     padding: 10px 0 0 20px;
+    margin-bottom: 40px;
 }
 
 #logo {
@@ -19,4 +31,21 @@ h1 {
     display: inline;
     vertical-align:middle;
     font-size: 2.5rem;
+}
+
+/* Header add */
+.butt {
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#b-task {
+    background-color: #47ADF1;
+    color: white;
+}
+
+#b-section{
+    background-color: white;
+    color: #ccd0d3;
 }
