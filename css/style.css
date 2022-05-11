@@ -9,10 +9,16 @@ h1 {
     display: inline;
     vertical-align:middle;
     font-size: 2.5rem;
+    font-weight: 900;
 }
 
 h2 {
     margin: 0;
+}
+
+ul, li  {
+    padding: 10px 0;
+    list-style: none;
 }
 
 /* Utilities */
@@ -29,9 +35,9 @@ h2 {
 /* header main*/
 #main-header {
     background-color: white;
-    height: 70px;
-    padding: 10px 0 0 20px;
+    height: 80px;
     margin-bottom: 40px;
+    line-height: 80px
 }
 
 #logo {
@@ -39,52 +45,49 @@ h2 {
     vertical-align: middle;
 }
 
-/* Header add */
-.butt {
+/* button*/
+.btn {
     padding: 6px;
-    border: 1px solid gray;
+    border: 1px solid transparent;
     border-radius: 5px;
 }
 
-#b-task {
+.btn#b-task {
     background-color: #47ADF1;
     color: white;
+    border-color: #47ADF1;
 }
 
-#b-section{
+.btn#b-section{
     background-color: white;
     color: #ccd0d3;
+    border-color: currentColor;
 }
 
 /* main */
-main{
-    font-weight: bold;
+.task-box {
+    line-height: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 1px 3px; 
+    border: 2px solid currentColor;
+    margin-right: 10px;
 }
-
-ul, li  {
-    padding: 10px 0;
-    list-style: none;
-    /* font-size: 20px; */
-}
-
-.checked {
+.task-box.checked {
     color: #A1DBCF;
-    border-radius: 50%;
-    padding: 1px 3px; 
-    border: 2px solid currentColor;
-    margin-right: 10px;
 }
 
-.cross {
+.task-box.cross {
     color: #eb4e46c4;
-    border-radius: 50%;
-    padding: 1px 3px; 
-    border: 2px solid currentColor;
-    margin-right: 10px;
 }
 
-/* various types of target*/
-.target {
+.text-task {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+/* various types of badge*/
+.badge {
     font-weight: normal;
     display: inline-block;
     color: white ;
